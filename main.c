@@ -42,5 +42,5 @@ int main() {
 			free(vendas[i]);
 		}
 			free(vendas);
-	return 0;
+	 return 0;
 }
