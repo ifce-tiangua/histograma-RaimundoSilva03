@@ -17,7 +17,7 @@ void imprime_histograma (int *vendas[], int num_cat) {
 int main() {
 	setlocale(LC_ALL, "portuguese");
 	int i, num_cat;
-	printf("Número de categorias: ");
+	//printf("Número de categorias: ");
 	scanf("%d", &num_cat);
 	int **vendas = (int **)malloc(num_cat * sizeof(int *));
 	 
@@ -32,7 +32,7 @@ int main() {
 		//printf("Número de vendas para categoria %d: ", i+1);
 		scanf("%d", vendas[i]);
 	}
-		printf("\nHistograma de vendas\n");
+		//printf("\nHistograma de vendas\n");
 		imprime_histograma(vendas, num_cat);
 		
 		//Deasolocar memória
