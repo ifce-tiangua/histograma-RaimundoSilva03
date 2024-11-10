@@ -7,8 +7,10 @@ void imprime_histograma (int *vendas[], int num_cat) {
 	for(i = 0; i < num_cat; i++) {
 	int	vendas_cat = *vendas[i];
 	printf("%d ", vendas_cat);
+	
 	for(j = 0; j < vendas_cat; j++) {
-		printf(" *");
+		
+		printf("*");
 		
 	}
 	printf("\n");
