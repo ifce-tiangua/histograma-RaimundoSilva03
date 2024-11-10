@@ -29,7 +29,7 @@ int main() {
 	    	return 1;
 		}
 		
-		printf("Número de vendas para categoria %d: ", i+1);
+		//printf("Número de vendas para categoria %d: ", i+1);
 		scanf("%d", vendas[i]);
 	}
 		printf("\nHistograma de vendas\n");
