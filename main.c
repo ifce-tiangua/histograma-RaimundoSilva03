@@ -9,9 +9,10 @@ void imprime_histograma (int *vendas[], int num_cat) {
 	printf("%d ", vendas_cat);
 	
 	for(j = 0; j < vendas_cat; j++) {
-		if(vendas_cat==0) {
-		printf("0") 
-	} else printf("*");
+		
+		printf("*");
+		
+	}
 	printf("\n");
 	}
 }
@@ -41,5 +42,5 @@ int main() {
 			free(vendas[i]);
 		}
 			free(vendas);
-	 return 0;
+	return 0;
 }
