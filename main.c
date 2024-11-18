@@ -28,7 +28,7 @@ int main() {
 	    
 	    if(vendas==NULL){
 	    	printf("Erro ao alocar memória para a categoria\n");
-	    	return 1;
+	    	return 0;
 		}
 		
 		//printf("Número de vendas para categoria %d: ", i+1);
