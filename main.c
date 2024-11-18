@@ -26,10 +26,6 @@ int main() {
 	for( i=0; i< num_cat; i++) {
 	    vendas[i] = (int *)malloc(sizeof(int));
 	    
-	    if(vendas==NULL){
-	    	printf("Erro ao alocar memória para a categoria\n");
-	    	return 0;
-		}
 		
 		//printf("Número de vendas para categoria %d: ", i+1);
 		scanf("%d", vendas[i]);
